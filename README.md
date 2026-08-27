@@ -1,4 +1,4 @@
-# 🛡️ Informe de Laboratorio: Primer Parcial de Seguridad
+# Informe de Laboratorio: Primer Parcial de Seguridad
 ### Extracción y Documentación de Archivos Ocultos Mediante Metadatos y Esteganografía
 
 **Autores:** Daniel Felipe Genta García & Miguel Ángel Ramírez Velásquez
@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Resumen Ejecutivo](#-resumen-ejecutivo)
 - [Entorno y Herramientas](#️-entorno-y-herramientas-utilizadas)
@@ -17,13 +17,13 @@
 
 ---
 
-## 📝 Resumen Ejecutivo
+## Resumen Ejecutivo
 
 Este documento recoge la bitácora detallada y secuencial de los comandos ejecutados en la terminal para resolver la primera etapa del parcial. El proceso consistió en clonar el repositorio de trabajo, inspeccionar de forma masiva los metadatos de un conjunto de 40 imágenes para localizar campos manipulados, correlacionar esas pistas mediante huellas criptográficas SHA-1 y, finalmente, extraer los cuatro archivos ocultos protegidos mediante criptografía asimétrica (`.gpg`) utilizando Steghide.
 
 ---
 
-## 🖥️ Entorno y Herramientas Utilizadas
+## Entorno y Herramientas Utilizadas
 
 | Herramienta | Función | Versión |
 |---|---|---|
@@ -35,7 +35,7 @@ Este documento recoge la bitácora detallada y secuencial de los comandos ejecut
 
 ---
 
-## 🔍 Bitácora de Procedimiento y Comandos
+## Bitácora de Procedimiento y Comandos
 
 ### Paso 1: Obtención y ubicación del repositorio de práctica
 
@@ -169,7 +169,7 @@ git push origin main
 
 ---
 
-## 📊 Tabla Consolidada de Resultados
+## Tabla Consolidada de Resultados
 
 | Archivo Extraído | Imagen Portadora de Origen | Passphrase (Pista) |
 |---|---|---|
@@ -180,7 +180,7 @@ git push origin main
 
 ---
 
-## ✅ Conclusiones
+## Conclusiones
 
 - La revisión masiva con `exiftool *` permitió identificar comportamientos anómalos incrustados directamente en los atributos de las imágenes que simulaban ser colecciones de stock legítimas.
 - El filtrado mediante expresiones regulares estructuró de manera limpia la ruta de resolución del reto, permitiendo aislar únicamente la información relevante sin ruido de metadatos estándar.
