@@ -1,7 +1,7 @@
 # Informe de Laboratorio: Primer Parcial de Seguridad
 ### Extracción y Documentación de Archivos Ocultos Mediante Metadatos y Esteganografía
 
-**Autores:** Daniel Felipe Genta García & Miguel Ángel Ramírez Velásquez
+**Autor:** Miguel Ángel Ramírez Velásquez
 **Institución:** Universidad Pontificia Bolivariana
 **Asignatura:** Seguridad en Tecnologías de la Información
 
